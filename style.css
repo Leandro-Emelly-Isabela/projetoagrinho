@@ -1,195 +1,25 @@
-* {
-  box-sizing: border-box;
-}
 body {
-  font-size: 14px;
+    background-color: blue;
 }
-.v1_3 {
-  width: 100%;
-  height: 1980px;
-  background: linear-gradient(rgba(191,191,94,1), rgba(88,105,46,1));
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-}
-.v36204_22 {
-  width: 435px;
-  height: 448px;
-  background: url("../images/v36204_22.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 30px;
-  left: 150px;
-  overflow: hidden;
-}
-.v36301_3 {
-  width: 522px;
-  height: 539px;
-  background: url("../images/v36301_3.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 570px;
-  left: 126px;
-  overflow: hidden;
-}
-.v36204_23 {
-  width: 522px;
-  height: 522px;
-  background: rgba(253,210,130,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border: 4px solid rgba(163,115,25,1);
-  overflow: hidden;
-}
-.v36204_24 {
-  width: 522px;
-  color: rgba(0,0,0,0.800000011920929);
-  position: absolute;
-  top: 179px;
-  left: 0px;
-  font-family: Newsreader;
-  font-weight: Regular;
-  font-size: 36px;
-  opacity: 1;
-  text-align: center;
-}
-.v36204_26 {
-  width: 304px;
-  color: rgba(213,107,29,1);
-  position: absolute;
-  top: 44px;
-  left: 102px;
-  font-family: Belleza;
-  font-weight: Regular;
-  font-size: 48px;
-  opacity: 1;
-  text-align: center;
-}
-.v36301_26 {
-  width: 595px;
-  height: 349px;
-  background: rgba(253,210,130,1);
-  opacity: 1;
-  position: absolute;
-  top: 570px;
-  left: 379px;
-  border: 4px solid rgba(163,115,25,1);
-  overflow: hidden;
-}
-.v36301_29 {
-  width: 310px;
-  color: rgba(0,0,0,0.800000011920929);
-  position: absolute;
-  top: 582px;
-  left: 379px;
-  font-family: Newsreader;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: center;
-}
-.v36301_27 {
-  width: 595px;
-  height: 349px;
-  background: rgba(253,210,130,1);
-  opacity: 1;
-  position: absolute;
-  top: 974px;
-  left: 379px;
-  border: 4px solid rgba(163,115,25,1);
-  overflow: hidden;
-}
-.v36301_28 {
-  width: 595px;
-  height: 349px;
-  background: rgba(253,210,130,1);
-  opacity: 1;
-  position: absolute;
-  top: 1379px;
-  left: 379px;
-  border: 4px solid rgba(163,115,25,1);
-  overflow: hidden;
-}
-.v36301_21 {
-  width: 558px;
-  height: 522px;
-  background: url("../images/v36301_21.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1206px;
-  left: 119px;
-  overflow: hidden;
-}
-.v36301_22 {
-  width: 522px;
-  height: 522px;
-  background: rgba(253,210,130,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 4px solid rgba(163,115,25,1);
-  overflow: hidden;
-}
-.v36301_23 {
-  width: 522px;
-  color: rgba(0,0,0,0.800000011920929);
-  position: absolute;
-  top: 188px;
-  left: 36px;
-  font-family: Newsreader;
-  font-weight: Regular;
-  font-size: 36px;
-  opacity: 1;
-  text-align: left;
-}
-.v36301_24 {
-  width: 429px;
-  color: rgba(213,107,29,1);
-  position: absolute;
-  top: 49px;
-  left: 47px;
-  font-family: Belleza;
-  font-weight: Regular;
-  font-size: 48px;
-  opacity: 1;
-  text-align: center;
-}
-.v36301_17 {
-  width: 840px;
-  color: linear-gradient(rgba(0,0,0,1), rgba(210,107,31,0.5));
-  position: absolute;
-  top: 185px;
-  left: 410px;
-  font-family: Inter;
-  font-weight: Bold Italic;
-  font-size: 128px;
-  opacity: 1;
-  text-align: center;
-}
-.v36301_18 {
-  width: 460px;
-  color: linear-gradient(rgba(255,255,255,1), rgba(253,210,130,0));
-  position: absolute;
-  top: 250px;
-  left: 504px;
-  font-family: Belleza;
-  font-weight: Regular;
-  font-size: 128px;
-  opacity: 1;
-  text-align: center;
+
+/* Sociedade */
+#titulo{
+position: absolute;
+width: 840px;
+height: 220px;
+left: 410px;
+top: 185px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 128px;
+line-height: 155px;
+text-align: center;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 35.42%, rgba(211, 107, 32, 0.4) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
