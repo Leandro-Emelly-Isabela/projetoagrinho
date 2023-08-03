@@ -1,22 +1,25 @@
-/*body {
-    background-color: blue;
+.textoopc{
+    text-align: center; 
+    margin: 0px; 
+    font-size: 36px; 
+    color: #D56B1D;
 }
 
-/* Sociedade */
-/*#titulo{
-position: absolute;
-width: 840px;
-height: 220px;
-left: 410px;
-top: 185px;
-font-family: 'Inter';
-font-style: italic;
-font-weight: 700;
-font-size: 128px;
-line-height: 155px;
-text-align: center;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 35.42%, rgba(211, 107, 32, 0.4) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+.opc{
+    width: 250px; 
+    padding: 20px
+}
+
+.banner{
+    padding: 100px 85px 200px 95px;
+    width: 1600px;
+}
+
+footer {
+    text-align: center;
+    padding: 9px;
+    background-color: linear-gradient(to left, #C8E17F, #FFF3A4);
+    color: black;
+    bottom: 0;
+    width: 100%;
 }
