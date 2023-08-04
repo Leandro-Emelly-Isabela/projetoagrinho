@@ -42,3 +42,26 @@ footer {
 .bg{
     background-image: linear-gradient(to bottom, #BFBF5E 75%, #58692E);
 }
+
+.menu-bar {
+    background-color: linear-gradient(to bottom, #BFBF5E 75%, #58692E);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; /* Alinhar itens da barra horizontalmente */
+    justify-content: space-around; /* Espaçamento uniforme entre os itens */
+    align-items: center; /* Centralizar verticalmente */
+    padding: 10px 0; /* Adicionar espaçamento interno */
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.teste{
+    color: red;
+}
