@@ -1,3 +1,27 @@
+body{
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    opacity: 1;
+    font-size: 64px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 9px;
+    background-color: linear-gradient(to left, #C8E17F, #FFF3A4);
+    color: black;
+    bottom: 0;
+    width: 100%;
+}
+
+
 .textoopc{
     text-align: center; 
     margin: 0px; 
@@ -15,11 +39,6 @@
     width: 1600px;
 }
 
-footer {
-    text-align: center;
-    padding: 9px;
-    background-color: linear-gradient(to left, #C8E17F, #FFF3A4);
-    color: black;
-    bottom: 0;
-    width: 100%;
+.bg{
+    background-image: linear-gradient(to bottom, #BFBF5E 75%, #58692E);
 }
