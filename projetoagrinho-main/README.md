@@ -1,1 +1,1 @@
-# projetoagrinho
+# Trabalho realizado por Leandro Henrique Castanha e Maria Eduarda Padovani para concorrer ao projeto agrinho pelo Colégio Estadual João de Faria Pioli 2023

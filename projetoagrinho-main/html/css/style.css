@@ -1,5 +1,12 @@
 body{
     font-size: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
 }
 
 h1 {
@@ -11,6 +18,14 @@ h1 {
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    opacity: 80%;
+}
 
 footer {
     text-align: center;
@@ -21,6 +36,9 @@ footer {
     width: 100%;
 }
 
+textarea{
+    resize: none;
+}
 
 .textoopc{
     text-align: center; 
@@ -35,8 +53,9 @@ footer {
 }
 
 .banner{
-    padding: 100px 85px 200px 95px;
-    width: 1600px;
+    padding: 100px 0px 200px 0px;
+    width: 1300px;
+
 }
 
 .bg{
@@ -54,14 +73,11 @@ footer {
     justify-content: space-around; /* Espaçamento uniforme entre os itens */
     align-items: center; /* Centralizar verticalmente */
     padding: 10px 0; /* Adicionar espaçamento interno */
+    font-size: 30px;
 }
 
 .menu-bar a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
-}
-
-.teste{
-    color: red;
 }

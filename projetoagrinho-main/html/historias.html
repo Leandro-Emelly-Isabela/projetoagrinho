@@ -1,100 +1,83 @@
-<!DOCTYPE html>
-
 <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sociedade Animal</title>
-    <style>
-      body {
-        margin: 4;
-        padding: 3;
-        background-image: linear-gradient(to bottom, #BFBF5E, #58692E);
-        font-family: Arial, sans-serif;
-        line-height: 1;
-      }
-      h1 {
-        text-align: center;
-        color: black;
-        opacity: 1;
-        font-size: 24px;
-        margin: 0;
-        padding: 10px;
-      }
-      .black-text {
-        text-align: center;
-        color: black;
-        font-size: 24px;
-        margin: 0;
-        padding: 10px;
-      }
-      img.banner {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-      }
-      ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        list-style: none;
-        margin-top: 20px;
-      }
-      ul li img.padovani {
-        max-width: 100%;
-        height: auto;
-      }
-      .about {
-        text-align: center;
-        color: black;
-        font-size: 24px;
-        margin: 20px;
-      }
-      .about a {
-        display: block;
-        text-align: center;
-        color: black;
-        opacity: 0.8;
-        font-size: 16px;
-        margin-top: 10px;
-      }
-  
-      /* Animação para mover a palavra "Agrinho" */
-      @keyframes moveAgrinho {
-        0% {
-          transform: translateX(0);
-        }
-        50% {
-          transform: translateX(10px);
-        }
-        100% {
-          transform: translateX(0);
-        }
-      }
-  
-      /* Aplicar a animação à palavra "Agrinho" */
-      .move-agrinho {
-        display: inline-block;
-        animation: moveAgrinho 3s infinite;
-      }
-    </style>
-  </head>
-  <body>
-    <h1 class="black-text">Col&eacute;gio Estadual Jo&atilde;o de Faria Pioli</h1>
-    <h1 class="black-text"><p style="text-align: center;"class="move-agrinho">Uma iniciativa projeto Agrinho</span></p></h1>
-  
-    <img class="banner" src="img/Banner.png" alt="Banner">
-  
-    <ul>
-      <li><img class="padovani" src="img/padovani.png" alt="Padovani"></li>
-      <li>
-        <h1 class="about">Quem somos n&oacute;s?</h1>
-        <p>Ol&aacute; a todos, neste site reunimos diversas informa&ccedil;&otilde;es e instru&ccedil;&otilde;es intuitivas e simples para o CONTINUE O TEXTO KKKKK</p>
+    <html lang="en">
+</head>
+
+<body class="bg">
+
+  <div class="menu-bar">
+    <a href="hub.html">In&iacute;cio</a>
+    <a href="dados.html">Dados</a>
+    <a href="cuidados.html">Cuidados</a>
+  </div>
+
+  <div style="text-align: center;"><img 
+      style="width: 700px; margin: 50px 0px 0px 0px;"
+        src="img/Banner.png">
+      </img></div>
+
+  <ul style="display: flex;">
+
+      <li style="padding: 50px;">
+          <h1 style="font-size: 42px">
+            KATO, O CÃO DE HOLLYWOOD<br>
+            <a href="https://meusanimais.com.br/kato-cao-hollywood/" target="_blank"><img src="img/kato.png">
+            <p style="font-size: 20px">
+              Kato era um cachorro de rua em condições horríveis. Por sorte, dois atores, Scott Schweitzer e 
+              David Sousa o encontraram enquanto gravavam uma cena de um filme, desde então foi adotado pelos
+              atores e ele se tornou uma ‘‘celebridade’’, participando de séries como 'Big Jim em Under the Dome'
+              de grande relevância
+            </p>
+            </a>
+          </h1>
+          <br>
+
+          <h1 style="font-size: 42px">
+            CÃOZINHO NO PRESÉPIO<br>
+            <a href="https://pt.aleteia.org/2019/11/29/o-caozinho-abandonado-que-comoveu-uma-cidade-ao-
+            achar-conforto-no-presepio/" target="_blank"><img src="img/caoemprezepio.png">
+            <p style="font-size: 20px">
+              Em 2008 na cidade catarinense de Criciúma, onde uma inusitada “figura viva” se juntou ao 
+              presépio montado em uma praça local: ao lado do Menino Jesus, um cãozinho, que havia sido 
+              abandonado pelos donos, encontrou calor e aconchego nas palhas do presépio.
+            </p>
+            </a>
+          </h1>
+          <br>
+
+          <h1 style="font-size: 42px">
+            KATO, O CÃO DE HOLLYWOOD<br>
+            <a href="https://canaldopet.ig.com.br/curiosidades/especiais/2018-04-21/gato-anda-20km.html" target="_blank"><img src="img/gatoabandonado.png">
+            <p style="font-size: 20px">
+              Ele foi abandonado por seus donos. Mas mesmo em um lar adotivo,  ele fugiu por 
+              sentir falta dos seus antigos donos. Toby andou 20Km para encontrar sua antiga família.
+              Mas ao contrário do que se imaginaria, seus donos não gostaram da “surpresa” e mandaram a um veterinário para sacrificar.
+              Mas o veterinário ao ver que o gato não tinha problemas de saúde, 
+              não sacrificou o bichano e o levou para adoção.
+            </p>
+            </a>
+          </h1>
       </li>
-    </ul>
-  <footer>
-      &copy; 2023 Sociedade Animal. Todos os direitos reservados.
-    </footer>
   
-  </body>
-  </html>
+      <li style="padding: 50px 100px 50px 50px">
+        <form name="conte" method="get" action="script.php">
+          <label for="comment"> Conte sua história com animais aqui!</label><br>
+          <textarea rows="8" cols="50" name="comentários" id="coment" maxlength="300" minlength="20"></textarea>
+          <br>
+          <input type="submit" value="enviar" />
+          </textarea>
+        </form>
+
+      </li>
+  
+  </ul> 
+
+  <footer class="footer">
+    &copy; 2023 Sociedade Animal. Todos os direitos reservados.
+  </footer>
+
+</body>
